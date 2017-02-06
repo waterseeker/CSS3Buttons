@@ -1,0 +1,9 @@
+#Button1 {
+    height: 3em;
+    width: 5em;
+    border: 2px solid black;
+    background-color: green;
+    box-shadow: 1em 1em 1em black;
+    text-align: center;
+    font-family: "Palatino Linotype", Times, Serif;
+}
