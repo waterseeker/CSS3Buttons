@@ -4,6 +4,8 @@
 .button {
     margin: 2em;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 #Button1 {
