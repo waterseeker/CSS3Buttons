@@ -7,19 +7,19 @@
         enough room for another, then will start displaying items on another row and so on */
     margin: 2em; /*set the size of the space outside the border of the element*/
     vertical-align: middle; /*The element is placed in the middle of the parent element*/
-    text-align: center; /*centers text horizontally*/
-    flex: 1 1 50%;
-    padding: 1em;
+    text-align: center; /*centers text horizontally*/  
 }
 
-#Button1 {
-    height: 3em;
-    width: 5em;
-    border: 2px solid black;
+#solidBorder {
+    height: 3em; /*height of element. An em is equal to the current 
+        font-size, for instance, if the font-size of the document is 12pt, 1em is equal to 12pt.*/
+    width: 5em; /*element width*/
+    border: 2px solid black; /*width style(required) color of border*/
     background-color: lightgreen;
     box-shadow: 1em 1em 1em green;
     text-align: center;
     font-family: "Palatino Linotype", Times, Serif;
+    padding: 1em; /*clears an area around the content (inside the border) of an element*/
 }
 
 #Button2 {
@@ -45,6 +45,7 @@
     text-align: center;
     font-family: "Palatino Linotype", Times, Serif;
     border-radius: 2em; /*rounds the corners*/
+    padding-top: 2em;
 }
 
 #Neon1 {
