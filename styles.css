@@ -1,11 +1,15 @@
 #Container {
-    display: inline-block;
+    
 }
+
 .button {
-    margin: 2em;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+    display: inline-block; /*elements will display in a line until there is not
+        enough room for another, then will start displaying items on another row and so on */
+    margin: 2em; /*set the size of the space outside the border of the element*/
+    vertical-align: middle; /*The element is placed in the middle of the parent element*/
+    text-align: center; /*centers text horizontally*/
+    flex: 1 1 50%;
+    padding: 1em;
 }
 
 #Button1 {
@@ -25,7 +29,7 @@
     border-style: inset;
     background-color: green;
     box-shadow: 1em 1em 1em black;
-    text-align: center;
+    text-align: center; /*centers text horizontally*/
     font-family: "Palatino Linotype", Times, Serif;
     border-radius: 2em; /*rounds the corners*/
 }
@@ -46,8 +50,8 @@
 #Neon1 {
     color: #fff;
     font-family: Monoton;
-    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate; /*fading in and out*/
+    animation: neon1 1.5s ease-in-out infinite alternate;         /*fading in and out*/
     width: 6em;
     border-width: 0.5em;
     border-style: solid;
